@@ -1,0 +1,7 @@
+body, a{
+  background-color: #161616;
+}
+.visually-hidden, .card-category, .section-tagline{
+  display: none;
+  background-color: #D73953;
+}
