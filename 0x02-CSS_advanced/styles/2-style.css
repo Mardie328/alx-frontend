@@ -1,7 +1,11 @@
 body, a{
-  background-color: #161616;
+  color: #161616;
 }
-.visually-hidden, .card-category, .section-tagline{
+
+.visually-hidden{
   display: none;
-  background-color: #D73953;
+}
+
+.card-category, .section-tagline{
+  color: #D73953;
 }
