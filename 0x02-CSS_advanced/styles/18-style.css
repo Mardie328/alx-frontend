@@ -55,20 +55,20 @@ body{
   line-height: var(--line-height-base);
 }
 
-a[href]{
+a:link{
   color: var(--text-color);
   text-decoration: none;
 }
 
-a[href]:visited{
+a:visited{
   font-style: italic;
 }
 
-a[href]:hover {
+a:hover {
   text-decoration: underline;
 }
 
-a[href]:active {
+a:active {
   background-color: var(--color-light-grey);
 }
 
@@ -81,13 +81,13 @@ h1, h2, h3, h4, h5, h6{
   float: right;
 }
 
-nav {
+.nav {
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-nav .nav-item {
+.nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
   font-size: var(--nav-item-font-size);
@@ -96,12 +96,12 @@ nav .nav-item {
   margin: var(--nav-item-margin);
 }
 
-nav .nav-link {
+.nav-link {
   display: block;
   padding: 0.5rem 1rem;
 }
 
-nav .nav-link:hover {
+.nav-link:hover {
   color: var(--nav-item-link-hover);
 }
 
